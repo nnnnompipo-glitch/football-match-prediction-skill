@@ -1,0 +1,56 @@
+{
+  "demo": true,
+  "competition": "Demo League",
+  "market": "1x2_90",
+  "home": "Harbor XI",
+  "away": "Pine XI",
+  "kickoff": "2025-04-12T15:00:00Z",
+  "as_of": "2025-04-11T18:00:00Z",
+  "home_elo": 1600,
+  "away_elo": 1520,
+  "elo_at": "2025-04-10T12:00:00Z",
+  "odds": [
+    2.08,
+    3.35,
+    3.76
+  ],
+  "odds_at": "2025-04-11T17:00:00Z",
+  "odds_source": "demo-reference",
+  "target_odds": [
+    2.15,
+    3.2,
+    3.6
+  ],
+  "target_odds_at": "2025-04-11T17:15:00Z",
+  "target_odds_source": "demo-target",
+  "evidence": [
+    {
+      "team": "Harbor XI",
+      "kind": "availability",
+      "event_id": "demo-harbor-striker",
+      "delta_xg": -0.1,
+      "confidence": 0.7,
+      "note": "虚构演示：首发前锋出场时间受限",
+      "source": "demo:club-report",
+      "observed_at": "2025-04-11T14:00:00Z"
+    }
+  ],
+  "roles": [
+    {
+      "role": "tactics",
+      "market": "1x2_90",
+      "probs": [
+        0.49,
+        0.3,
+        0.21
+      ],
+      "source": "demo:tactics-note",
+      "observed_at": "2025-04-11T16:00:00Z"
+    }
+  ],
+  "rule_inputs": {
+    "motivation": 0.7,
+    "odds_trend": 0.52,
+    "form": 0.63
+  }
+}

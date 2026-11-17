@@ -1,0 +1,12 @@
+<!doctype html><html lang='zh-CN'><head><meta charset='utf-8'><meta name='viewport' content='width=device-width, initial-scale=1'><meta http-equiv='Content-Security-Policy' content="default-src 'none'; style-src 'unsafe-inline'"><title>历史赛果滚动回测</title><style>*{box-sizing:border-box}body{margin:auto;padding:32px 5vw 60px;max-width:1050px;
+font:16px/1.65 system-ui,'Microsoft YaHei',sans-serif;color:#18342f}header,section{border-bottom:1px solid #c3d5cd;
+padding:10px 0 24px}header{border-top:4px solid #176450}h1{font-size:2rem}h3{font-size:1.05rem}
+.scroll{overflow-x:auto}table{border-collapse:collapse;width:100%}th,td{padding:8px 10px;text-align:left;
+border-bottom:1px solid #d6dfdb}th{background:#eef5f1}pre{white-space:pre-wrap;overflow-wrap:anywhere}
+@media print{body{max-width:none;padding:0}tr{break-inside:avoid}}</style></head><body><header><h1>历史赛果滚动回测</h1></header><h3>回测数据</h3><p>数据源 openfootball/football.json · 赛事 PL · 输入 380 条 · 各赛事至少 80 场训练后开始按日预测。</p><h3>评估日期</h3><p>2024-10-25 至 2025-05-25 · 事后历史重建。</p><div class='scroll'><table><thead><tr><th>样本口径</th><th>场次</th><th>对数损失</th><th>Brier（0–2）</th><th>胜平负命中率</th></tr></thead><tbody><tr><td>全部预测</td><td>300</td><td>1.0009</td><td>0.6001</td><td>50.7%</td></tr></tbody></table></div><h3>赔率基准</h3><p>该批数据未提供可比较的三项赔率。</p><details><summary>核对原始数据</summary><pre>{
+  &quot;source&quot;: &quot;openfootball/football.json&quot;,
+  &quot;endpoint&quot;: &quot;https://raw.githubusercontent.com/openfootball/football.json/master/2024-25/en.1.json&quot;,
+  &quot;observed_at&quot;: &quot;2026-11-17T01:19:37+00:00&quot;,
+  &quot;raw_sha256&quot;: &quot;c3d18f552d83382cd4b6b21127adbbfe38e7f8618ddc979fb5404f2df07d0a75&quot;,
+  &quot;rows&quot;: 380
+}</pre></details><h3>头号结果的信心与实际命中</h3><div class='scroll'><table><thead><tr><th>区间</th><th>场次</th><th>平均信心</th><th>实际命中</th></tr></thead><tbody><tr><td>30%–40%</td><td>40</td><td>38.3%</td><td>45.0%</td></tr><tr><td>40%–50%</td><td>138</td><td>44.7%</td><td>44.2%</td></tr><tr><td>50%–60%</td><td>60</td><td>54.5%</td><td>51.7%</td></tr><tr><td>60%–70%</td><td>40</td><td>64.2%</td><td>60.0%</td></tr><tr><td>70%–80%</td><td>20</td><td>73.1%</td><td>80.0%</td></tr><tr><td>80%–90%</td><td>2</td><td>84.5%</td><td>100.0%</td></tr></tbody></table></div></body></html>

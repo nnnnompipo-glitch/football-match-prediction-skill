@@ -1,0 +1,4 @@
+interface:
+  display_name: "足球赛前研究室"
+  short_description: "核验足球赛前情报，计算比分与胜平负，比较赔率并模拟杯赛和复盘"
+  default_prompt: "使用 $football-forecast-lab 分析这场足球比赛，列出赛前数据来源、胜平负、比分及关键情景变化。"
