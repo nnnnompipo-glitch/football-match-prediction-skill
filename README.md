@@ -1,10 +1,29 @@
-# Football Match Prediction Skill｜足球赛前研究室
+# Touchline Lab｜足球赛前研究室
+
+中文 Windows 桌面软件与 Codex 足球预测 skill：自动采集赛程、选择比赛、计算预测、播放比赛动画、查看来源并复盘。
+
+**[下载最新版本](https://github.com/nnnnompipo-glitch/football-match-prediction-skill/releases/latest)** · [Windows 64 位便携包 v2.2.0](https://github.com/nnnnompipo-glitch/football-match-prediction-skill/releases/download/v2.2.0/TouchlineLab-2.2.0-windows-x64.zip) · [桌面版说明](football-studio/README.md)
+
+## Windows 桌面版
+
+下载 ZIP 并解压，双击 `TouchlineLab.exe` 即可使用，无需安装 Python。在「赛程采集」中设置时段，选择单场、多场或本次收集的全部可预测比赛。设置页可以填写自己的大模型 API 地址、模型和密钥。
+
+- 自动采集、中文队名与赛事名，支持「英超」「巴甲」「曼城」「大巴黎」等简称搜索，保留原名与来源链接。
+- 比赛动画包含双方球员跑动、传球、抢断、射门及进球庆祝；比分取自预测分布，画面属于生成的比赛演绎。
+- 历史战绩、伤停、赔率、情景重算、比分矩阵、杯赛、Elo、回测和冻结台账等模块可按需启用。
+- 未取得通行译名的冷门名称先显示明确标注「音译待核验」的中文，后台继续尝试校正。
+
+![全联赛中文搜索](football-studio/全联赛中文搜索.png)
+
+完整操作与验证范围见[桌面版 README](football-studio/README.md)及[使用说明](football-studio/使用说明.md)。本次发布不包含用户密钥、缓存或个人预测台账。
+
+## Codex Skill
 
 A football (soccer) match prediction skill for Codex. Forecast regulation-time win/draw/loss and scorelines, compare injury scenarios, simulate tournaments, and backtest predictions against historical results. The Python forecasting engine runs offline with the standard library.
 
 **主力前锋如果缺阵，主队胜率会下降多少？** 在随仓库提供的虚构对阵 Harbor XI 对 Pine XI 中，同一场比赛的主胜概率从 **41.7%** 降到 **38.0%**，相差 **3.71 个百分点**。其余输入保持一致，可以对照比赛输入与情景文件，核实这次概率变化来自哪项假设。[比赛输入](football-forecast-lab/examples/match.json) · [伤停情景](football-forecast-lab/examples/scenarios.json) · [完整示例报告](reports/match-example.html)
 
-## 第一次使用
+### 安装与运行 Skill
 
 **用 Codex 分析。** 在有 Skill Installer 的 Codex 会话里，发送下面的安装请求，然后在新会话中调用 `$football-forecast-lab`。仓库中的技能目录为 [football-forecast-lab](football-forecast-lab/SKILL.md)。
 

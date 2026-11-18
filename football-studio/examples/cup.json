@@ -1,0 +1,48 @@
+{
+  "demo": true,
+  "as_of": "2025-04-11T18:00:00Z",
+  "groups": {
+    "A": [
+      "Harbor XI",
+      "Pine XI",
+      "Lake XI",
+      "Vale XI"
+    ],
+    "B": [
+      "Stone XI",
+      "Amber XI",
+      "Hill XI",
+      "Reed XI"
+    ]
+  },
+  "ratings": {
+    "Harbor XI": 1600,
+    "Pine XI": 1577,
+    "Lake XI": 1554,
+    "Vale XI": 1531,
+    "Stone XI": 1508,
+    "Amber XI": 1485,
+    "Hill XI": 1462,
+    "Reed XI": 1439
+  },
+  "advance_per_group": 2,
+  "best_thirds": 0,
+  "bracket": [
+    [
+      "A:1",
+      "B:2"
+    ],
+    [
+      "B:1",
+      "A:2"
+    ]
+  ],
+  "group_results": [
+    {
+      "home": "Harbor XI",
+      "away": "Pine XI",
+      "home_goals": 2,
+      "away_goals": 1
+    }
+  ]
+}

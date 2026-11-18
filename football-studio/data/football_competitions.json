@@ -1,0 +1,681 @@
+{
+  "espn:19267": {
+    "zh": "中北美及加勒比国家联赛",
+    "aliases": [],
+    "names": [
+      "Concacaf Nations League"
+    ]
+  },
+  "espn:8313": {
+    "zh": "哥伦比亚杯",
+    "aliases": [],
+    "names": [
+      "Copa Colombia"
+    ]
+  },
+  "espn:18505": {
+    "zh": "印度足球联赛",
+    "aliases": [],
+    "names": [
+      "Indian Football League"
+    ]
+  },
+  "espn:20381": {
+    "zh": "西班牙女子皇后杯",
+    "aliases": [],
+    "names": [
+      "Copa de la Reina"
+    ]
+  },
+  "espn:19483": {
+    "zh": "欧洲女子冠军联赛",
+    "aliases": [
+      "女足欧冠",
+      "欧女冠"
+    ],
+    "names": [
+      "UEFA Women's Champions League"
+    ]
+  },
+  "espn:3951": {
+    "zh": "西班牙国王杯",
+    "aliases": [],
+    "names": [
+      "Copa del Rey"
+    ]
+  },
+  "espn:23390": {
+    "zh": "英格兰女子联赛杯（WSL球员杯）",
+    "aliases": [
+      "WSL球员杯"
+    ],
+    "names": [
+      "WSL Players Cup"
+    ]
+  },
+  "espn:20226": {
+    "zh": "英格兰女子足总杯",
+    "aliases": [],
+    "names": [
+      "Women's FA Cup"
+    ]
+  },
+  "espn:670": {
+    "zh": "秘鲁甲级联赛",
+    "aliases": [],
+    "names": [
+      "Peru Liga 1"
+    ]
+  },
+  "espn:630": {
+    "zh": "巴西甲级联赛（巴甲）",
+    "aliases": [
+      "巴甲",
+      "巴西甲级联赛"
+    ],
+    "names": [
+      "Brazil Serie A"
+    ]
+  },
+  "espn:23284": {
+    "zh": "玻利维亚杯",
+    "aliases": [],
+    "names": [
+      "Copa Bolivia"
+    ]
+  },
+  "espn:5697": {
+    "zh": "国际足联U17世界杯（世少赛）",
+    "aliases": [
+      "世少赛"
+    ],
+    "names": [
+      "FIFA U-17 World Cup"
+    ]
+  },
+  "espn:19834": {
+    "zh": "俱乐部友谊赛",
+    "aliases": [],
+    "names": [
+      "Club Friendly"
+    ]
+  },
+  "espn:5487": {
+    "zh": "美国大学男子足球联赛（NCAA）",
+    "aliases": [
+      "NCAA"
+    ],
+    "names": [
+      "NCAAM Soccer"
+    ]
+  },
+  "espn:770": {
+    "zh": "美国职业足球大联盟",
+    "aliases": [
+      "美职联",
+      "美职足",
+      "美国职业足球大联盟"
+    ],
+    "names": [
+      "MLS"
+    ]
+  },
+  "espn:18992": {
+    "zh": "澳大利亚女子甲级联赛（澳女联）",
+    "aliases": [
+      "澳女联"
+    ],
+    "names": [
+      "A-League Women"
+    ]
+  },
+  "espn:3906": {
+    "zh": "澳大利亚男子甲级联赛（澳超）",
+    "aliases": [
+      "澳超"
+    ],
+    "names": [
+      "A-League Men"
+    ]
+  },
+  "espn:750": {
+    "zh": "日本J1联赛（日职联）",
+    "aliases": [
+      "日职联",
+      "日职",
+      "J1联赛"
+    ],
+    "names": [
+      "Japanese J1 League"
+    ]
+  },
+  "espn:8316": {
+    "zh": "印度超级联赛（印度超）",
+    "aliases": [
+      "印度超"
+    ],
+    "names": [
+      "Indian Super League"
+    ]
+  },
+  "espn:3939": {
+    "zh": "俄罗斯超级联赛（俄超）",
+    "aliases": [
+      "俄超"
+    ],
+    "names": [
+      "Russian Premier"
+    ]
+  },
+  "espn:660": {
+    "zh": "厄瓜多尔甲级联赛",
+    "aliases": [],
+    "names": [
+      "LigaPro Ecuador"
+    ]
+  },
+  "espn:3927": {
+    "zh": "德国乙级联赛（德乙）",
+    "aliases": [
+      "德乙"
+    ],
+    "names": [
+      "2. Bundesliga"
+    ]
+  },
+  "espn:21231": {
+    "zh": "沙特职业联赛",
+    "aliases": [
+      "沙特联",
+      "沙特超",
+      "沙特职业联赛"
+    ],
+    "names": [
+      "Saudi Pro League"
+    ]
+  },
+  "espn:3960": {
+    "zh": "挪威超级联赛（挪超）",
+    "aliases": [
+      "挪超"
+    ],
+    "names": [
+      "Norwegian Eliteserien"
+    ]
+  },
+  "espn:3913": {
+    "zh": "丹麦超级联赛（丹超）",
+    "aliases": [
+      "丹超"
+    ],
+    "names": [
+      "Danish Superliga"
+    ]
+  },
+  "espn:3933": {
+    "zh": "荷兰乙级联赛（荷乙）",
+    "aliases": [
+      "荷乙"
+    ],
+    "names": [
+      "Keuken Kampioen Divisie"
+    ]
+  },
+  "espn:3926": {
+    "zh": "法国乙级联赛（法乙）",
+    "aliases": [
+      "法乙"
+    ],
+    "names": [
+      "Ligue 2"
+    ]
+  },
+  "espn:5499": {
+    "zh": "美国大学女子足球联赛（NCAA）",
+    "aliases": [
+      "NCAA"
+    ],
+    "names": [
+      "NCAAW Soccer"
+    ]
+  },
+  "espn:3940": {
+    "zh": "苏格兰冠军联赛（苏冠）",
+    "aliases": [
+      "苏冠"
+    ],
+    "names": [
+      "SPFL Championship"
+    ]
+  },
+  "espn:3921": {
+    "zh": "西班牙乙级联赛（西乙）",
+    "aliases": [
+      "西乙"
+    ],
+    "names": [
+      "LALIGA 2"
+    ]
+  },
+  "espn:720": {
+    "zh": "德国甲级联赛",
+    "aliases": [
+      "德甲",
+      "德国甲级联赛"
+    ],
+    "names": [
+      "Bundesliga"
+    ]
+  },
+  "espn:3931": {
+    "zh": "意大利乙级联赛（意乙）",
+    "aliases": [
+      "意乙",
+      "意大利乙级联赛"
+    ],
+    "names": [
+      "Italian Serie B"
+    ]
+  },
+  "espn:710": {
+    "zh": "法国甲级联赛",
+    "aliases": [
+      "法甲",
+      "法国甲级联赛"
+    ],
+    "names": [
+      "Ligue 1"
+    ]
+  },
+  "espn:3901": {
+    "zh": "比利时甲级联赛（比甲）",
+    "aliases": [
+      "比甲"
+    ],
+    "names": [
+      "Belgian Pro League"
+    ]
+  },
+  "espn:3917": {
+    "zh": "英格兰全国联赛",
+    "aliases": [],
+    "names": [
+      "National League"
+    ]
+  },
+  "espn:3915": {
+    "zh": "英格兰甲级联赛（英甲）",
+    "aliases": [
+      "英甲"
+    ],
+    "names": [
+      "EFL League One"
+    ]
+  },
+  "espn:740": {
+    "zh": "西班牙甲级联赛（西甲）",
+    "aliases": [
+      "西甲"
+    ],
+    "names": [
+      "LALIGA"
+    ]
+  },
+  "espn:20955": {
+    "zh": "法国女子甲级联赛",
+    "aliases": [],
+    "names": [
+      "Première Ligue"
+    ]
+  },
+  "espn:3934": {
+    "zh": "巴拉圭甲级联赛",
+    "aliases": [],
+    "names": [
+      "Paraguayan Primera"
+    ]
+  },
+  "espn:20922": {
+    "zh": "葡萄牙杯",
+    "aliases": [],
+    "names": [
+      "Taca de Portugal"
+    ]
+  },
+  "espn:640": {
+    "zh": "智利甲级联赛",
+    "aliases": [],
+    "names": [
+      "Chilean Primera"
+    ]
+  },
+  "espn:650": {
+    "zh": "哥伦比亚甲级联赛",
+    "aliases": [],
+    "names": [
+      "Colombian Primera A"
+    ]
+  },
+  "espn:745": {
+    "zh": "阿根廷甲级联赛（阿甲）",
+    "aliases": [
+      "阿甲"
+    ],
+    "names": [
+      "Argentine LPF"
+    ]
+  },
+  "espn:760": {
+    "zh": "墨西哥超级联赛（墨超）",
+    "aliases": [
+      "墨超"
+    ],
+    "names": [
+      "Liga MX"
+    ]
+  },
+  "espn:4005": {
+    "zh": "哥斯达黎加甲级联赛",
+    "aliases": [],
+    "names": [
+      "Liga FPD"
+    ]
+  },
+  "espn:3946": {
+    "zh": "土耳其超级联赛",
+    "aliases": [
+      "土超",
+      "土耳其超级联赛"
+    ],
+    "names": [
+      "Turkish Super Lig"
+    ]
+  },
+  "espn:20956": {
+    "zh": "西班牙女子甲级联赛",
+    "aliases": [],
+    "names": [
+      "Liga F"
+    ]
+  },
+  "espn:19968": {
+    "zh": "瑞典超级联赛升降级附加赛",
+    "aliases": [],
+    "names": [
+      "Swedish Allsvenskan Pro/Rel"
+    ]
+  },
+  "espn:700": {
+    "zh": "英格兰超级联赛",
+    "aliases": [
+      "英超",
+      "英格兰超级联赛"
+    ],
+    "names": [
+      "English Premier League"
+    ]
+  },
+  "espn:3914": {
+    "zh": "英格兰冠军联赛（英冠）",
+    "aliases": [
+      "英冠"
+    ],
+    "names": [
+      "EFL Championship"
+    ]
+  },
+  "espn:3916": {
+    "zh": "英格兰乙级联赛（英乙）",
+    "aliases": [
+      "英乙"
+    ],
+    "names": [
+      "EFL League Two"
+    ]
+  },
+  "espn:8097": {
+    "zh": "英格兰女子超级联赛（英女超）",
+    "aliases": [
+      "英女超"
+    ],
+    "names": [
+      "Women's Super League"
+    ]
+  },
+  "espn:3945": {
+    "zh": "瑞典超级联赛（瑞典超）",
+    "aliases": [
+      "瑞典超"
+    ],
+    "names": [
+      "Swedish Allsvenskan"
+    ]
+  },
+  "espn:730": {
+    "zh": "意大利甲级联赛",
+    "aliases": [
+      "意甲",
+      "意大利甲级联赛"
+    ],
+    "names": [
+      "Serie A"
+    ]
+  },
+  "espn:735": {
+    "zh": "苏格兰超级联赛（苏超）",
+    "aliases": [
+      "苏超"
+    ],
+    "names": [
+      "SPFL Premiership"
+    ]
+  },
+  "espn:725": {
+    "zh": "荷兰甲级联赛（荷甲）",
+    "aliases": [
+      "荷甲"
+    ],
+    "names": [
+      "Eredivisie"
+    ]
+  },
+  "espn:3907": {
+    "zh": "奥地利甲级联赛（奥甲）",
+    "aliases": [
+      "奥甲"
+    ],
+    "names": [
+      "Austrian Bundesliga"
+    ]
+  },
+  "espn:4002": {
+    "zh": "美国足球冠军联赛（USL）",
+    "aliases": [
+      "USL"
+    ],
+    "names": [
+      "USL Championship"
+    ]
+  },
+  "espn:3955": {
+    "zh": "希腊超级联赛（希腊超）",
+    "aliases": [
+      "希腊超"
+    ],
+    "names": [
+      "Greek Super League"
+    ]
+  },
+  "espn:3904": {
+    "zh": "阿根廷乙级都会联赛",
+    "aliases": [],
+    "names": [
+      "Argentine Primera B"
+    ]
+  },
+  "espn:3928": {
+    "zh": "危地马拉国家联赛",
+    "aliases": [],
+    "names": [
+      "Guatemalan Liga Nacional"
+    ]
+  },
+  "espn:620": {
+    "zh": "玻利维亚职业联赛",
+    "aliases": [],
+    "names": [
+      "Bolivian Liga Profesional"
+    ]
+  },
+  "espn:3903": {
+    "zh": "阿根廷全国乙级联赛（阿乙）",
+    "aliases": [
+      "阿乙"
+    ],
+    "names": [
+      "Argentine Nacional B"
+    ]
+  },
+  "espn:3929": {
+    "zh": "洪都拉斯国家联赛",
+    "aliases": [],
+    "names": [
+      "Honduran Liga Nacional"
+    ]
+  },
+  "espn:3943": {
+    "zh": "萨尔瓦多甲级联赛",
+    "aliases": [],
+    "names": [
+      "Salvadoran Primera"
+    ]
+  },
+  "espn:3949": {
+    "zh": "委内瑞拉甲级联赛",
+    "aliases": [],
+    "names": [
+      "Liga FUTVE"
+    ]
+  },
+  "espn:23633": {
+    "zh": "美国女子超级联赛（USL）",
+    "aliases": [
+      "USL"
+    ],
+    "names": [
+      "USL Super League"
+    ]
+  },
+  "espn:5454": {
+    "zh": "南美俱乐部杯（南美杯）",
+    "aliases": [
+      "南美杯",
+      "南美俱乐部杯"
+    ],
+    "names": [
+      "CONMEBOL Sudamericana"
+    ]
+  },
+  "espn:8301": {
+    "zh": "美国国家女子足球联赛（NWSL）",
+    "aliases": [
+      "NWSL"
+    ],
+    "names": [
+      "NWSL"
+    ]
+  },
+  "espn:3932": {
+    "zh": "墨西哥发展联赛（墨西甲）",
+    "aliases": [
+      "墨西甲"
+    ],
+    "names": [
+      "Liga de Expansión MX"
+    ]
+  },
+  "espn:19945": {
+    "zh": "荷兰女子甲级联赛",
+    "aliases": [],
+    "names": [
+      "Dutch Vrouwen Eredivisie"
+    ]
+  },
+  "espn:4007": {
+    "zh": "巴西乙级联赛（巴乙）",
+    "aliases": [
+      "巴乙",
+      "巴西乙级联赛"
+    ],
+    "names": [
+      "Brazil Serie B"
+    ]
+  },
+  "espn:3902": {
+    "zh": "亚足联冠军精英联赛",
+    "aliases": [
+      "亚冠精英",
+      "亚冠精英联赛"
+    ],
+    "names": [
+      "AFC Champions League Elite"
+    ]
+  },
+  "espn:18000": {
+    "zh": "非洲联盟杯",
+    "aliases": [],
+    "names": [
+      "CAF Confederation Cup"
+    ]
+  },
+  "espn:2466": {
+    "zh": "亚足联冠军二级联赛（亚冠二级）",
+    "aliases": [
+      "亚冠二级",
+      "亚冠二级联赛"
+    ],
+    "names": [
+      "AFC Champions League Two"
+    ]
+  },
+  "espn:3937": {
+    "zh": "南非超级联赛（南非超）",
+    "aliases": [
+      "南非超"
+    ],
+    "names": [
+      "South African Premier"
+    ]
+  },
+  "espn:775": {
+    "zh": "欧洲冠军联赛",
+    "aliases": [
+      "欧冠",
+      "欧洲冠军联赛"
+    ],
+    "names": [
+      "UEFA Champions League"
+    ]
+  },
+  "espn:18481": {
+    "zh": "英格兰联赛锦标赛",
+    "aliases": [],
+    "names": [
+      "EFL Trophy"
+    ]
+  },
+  "espn:5331": {
+    "zh": "苏格兰挑战杯",
+    "aliases": [],
+    "names": [
+      "SPFL Challenge Cup"
+    ]
+  },
+  "espn:8312": {
+    "zh": "智利杯",
+    "aliases": [],
+    "names": [
+      "Copa Chile"
+    ]
+  }
+}

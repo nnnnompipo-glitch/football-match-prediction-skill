@@ -1,0 +1,48 @@
+.collector{max-width:1280px;margin:0 auto;min-width:0;color:var(--ink)}
+.collector .page-head{margin-bottom:20px}
+.collect-card{margin:0 0 16px;border:1px solid var(--border);border-radius:15px;background:var(--panel);padding:clamp(16px,2.3vw,26px);min-width:0}
+.collect-card h2,.collect-card h3{margin:0;color:var(--ink);line-height:1.45}
+.collect-card h2{font-size:18px}.collect-card h3{font-size:14px}
+.collect-heading,.collect-buttons,.collect-statrow,.collect-inputs,.collect-chips,.collect-caption{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.collect-heading{justify-content:space-between;margin-bottom:14px}
+.collect-icon-title{display:flex;align-items:center;gap:9px}.collect-icon-title .ico{color:#437351}
+.collect-card label,.collect-card button,.collect-card small{font-size:13px}
+.collect-inputs{align-items:flex-end;gap:14px;margin:16px 0}
+.collect-field{display:flex;flex:1 1 160px;min-width:0;flex-direction:column;gap:6px;font-weight:600;color:#405749}
+.collect-field input,.collect-field select{width:100%;min-width:0;margin:0;padding:9px 11px;border:1px solid #c9d4c9;border-radius:8px;background:#fff;color:var(--ink);font:inherit}
+.collect-small{font-size:12px;line-height:1.65;color:var(--muted);margin:5px 0}
+.collect-caption{gap:6px 14px;color:#50665a;font-size:12px}
+.collect-buttons{margin-top:14px}
+.collect-card button:disabled{cursor:default}
+.collect-action,.collect-card .collect-quiet{border:1px solid #d0d9d0;border-radius:8px;background:#fff;color:#294e38;padding:7px 11px;font-weight:600;line-height:1.35}
+.collect-card .collect-quiet{background:#f4f7ef;font-size:12px}
+.collect-card :is(.collect-action,.collect-quiet):hover:enabled{border-color:#8daa94;background:#edf5e9}
+.collect-feedback{margin:9px 0 0;font-size:13px;line-height:1.55;color:#426a4a;overflow-wrap:anywhere}
+.collect-feedback.error{color:#923f32}.collect-feedback:empty{display:none}
+.collect-banner{display:flex;gap:10px;align-items:flex-start;padding:10px 12px;background:#f1f5eb;border-radius:8px;color:#516b52;font-size:13px}
+.collect-banner .ico{margin-top:2px}
+.collect-empty{border:1px dashed #cbd7c7;border-radius:10px;padding:20px 15px;text-align:center;color:#5f7064;font-size:13px;line-height:1.7}
+.collect-empty .collect-buttons{justify-content:center}
+.collector [data-name-state]{margin:3px 0 12px}
+.collector [data-name-state] button{margin:3px 0 4px}
+.collect-chips{gap:8px 14px;margin-top:10px}
+.collect-chips label{display:flex;gap:5px;align-items:center;color:#3a5541;cursor:pointer}
+.collector input[type=checkbox]{accent-color:#286142;width:16px;height:16px}
+.collect-table{max-height:475px;overflow:auto;margin:13px 0 8px;border:1px solid #e2e7dd;border-radius:9px}
+.collect-table table{border-collapse:separate;border-spacing:0;min-width:680px;width:100%;font-size:13px}
+.collect-table th{position:sticky;top:0;z-index:1;font-weight:650;white-space:nowrap;color:#4b6653;background:#eef4e9;text-align:left}
+.collect-table th,.collect-table td{border-bottom:1px solid #e4e8e0;padding:10px;vertical-align:middle;line-height:1.5}
+.collect-table tr:last-child td{border-bottom:0}.collect-table td:first-child,.collect-table th:first-child{padding-left:13px}
+.collect-table td b{display:block;line-height:1.6;font-size:13px;color:#274734}
+.collect-table .muted{display:block;color:#6c7f6f;font-size:11px;font-weight:400}.collect-table td.nowrap{white-space:nowrap}
+.collect-report-links{display:flex;align-items:center;gap:5px;flex-wrap:wrap}.collect-report-links button{white-space:nowrap}
+.collect-pill{display:inline-block;border-radius:5px;padding:3px 7px;background:#e8f3e1;color:#396739;font-size:11px;font-weight:650;white-space:nowrap}
+.collect-pill.dim{background:#f0f0eb;color:#6c746d}
+.collect-statrow{gap:9px;margin:12px 0}
+.collect-stat{background:#f1f5ed;border:1px solid #dce6d8;border-radius:8px;padding:8px 11px;display:flex;gap:7px;align-items:center;font-size:12px;color:#58725b}
+.collect-stat b{font-size:17px;color:#2c5135;font-variant-numeric:tabular-nums}
+.collect-card details{margin:12px 0;border-top:1px solid #dce3d9}.collect-card summary{padding-top:9px;color:#4c6853;font-size:13px;font-weight:600;cursor:pointer}
+.collect-card ul{padding-left:20px;margin:8px 0;color:#5e695e;font-size:12px;overflow-wrap:anywhere}
+.collector .collect-running .ico{animation:collect-pulse 1.4s ease-in-out infinite}@keyframes collect-pulse{50%{opacity:.45}}
+@media(max-width:640px){.collect-inputs{gap:10px}.collect-field{flex-basis:45%}.collect-card{border-radius:11px}.collect-buttons button{min-height:36px}.collect-table{max-height:410px}}
+@media(prefers-reduced-motion:reduce){.collector .collect-running .ico{animation:none}}

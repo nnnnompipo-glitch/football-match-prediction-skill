@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="zh-Hans">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#123c2e">
+  <title>足球赛前研究室 · Touchline Lab</title>
+  <link rel="icon" type="image/svg+xml" href="/mark.svg">
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="/tools.css">
+</head>
+<body>
+  <div id="shell">
+    <aside id="sidebar" aria-label="主导航"></aside>
+    <button id="veil" aria-label="关闭导航" hidden></button>
+    <div class="workspace">
+      <header id="utility"></header>
+      <main id="view" tabindex="-1"><p class="loading">正在打开研究工作台…</p></main>
+    </div>
+  </div>
+  <dialog id="dialog"><div id="dialog-body"></div></dialog>
+  <div id="toast" role="status" aria-live="polite" hidden></div>
+  <script type="module" src="/app.js"></script>
+</body>
+</html>

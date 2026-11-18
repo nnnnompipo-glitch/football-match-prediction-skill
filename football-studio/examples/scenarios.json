@@ -1,0 +1,22 @@
+[
+  {
+    "name": "主队前锋确认缺阵（假设）",
+    "evidence": [
+      {
+        "team": "Harbor XI",
+        "kind": "availability",
+        "event_id": "demo-harbor-striker",
+        "delta_xg": -0.32,
+        "confidence": 1,
+        "source": "demo:scenario",
+        "observed_at": "2025-04-11T17:50:00Z",
+        "note": "假设同一伤停事件更新"
+      }
+    ]
+  },
+  {
+    "name": "不采用市场和角色",
+    "market_weight": 0,
+    "role_weight": 0
+  }
+]

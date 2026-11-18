@@ -1,0 +1,48 @@
+{
+  "fixtures": 675,
+  "source_days_success": 8,
+  "provider_competitions": 80,
+  "dictionary_entries": {
+    "team": 1113,
+    "competition": 164,
+    "stage": 34
+  },
+  "before": {
+    "team": {
+      "total": 1007,
+      "builtin": 169
+    },
+    "competition": {
+      "total": 80,
+      "builtin": 15
+    },
+    "stage": {
+      "total": 31,
+      "builtin": 22
+    }
+  },
+  "after": {
+    "team": {
+      "total": 1007,
+      "builtin": 822
+    },
+    "competition": {
+      "total": 80,
+      "builtin": 78
+    },
+    "stage": {
+      "total": 31,
+      "builtin": 31
+    }
+  },
+  "provider_identity_competitions": {
+    "known": 80,
+    "total": 80
+  },
+  "remaining_team_names": {
+    "total": 185,
+    "college": 97,
+    "other": 88
+  },
+  "note": "builtin counts use the same structural matcher before/after. Serie A and Bundesliga require provider identity; all 80 observed competition IDs have exact Chinese labels. Remaining uncommon names are left to visibly labelled transliteration, not added as asserted official names."
+}

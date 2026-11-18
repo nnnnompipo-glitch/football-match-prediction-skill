@@ -1,0 +1,900 @@
+{
+  "audited_at": "2026-11-18T14:05:44.436604+00:00",
+  "fixtures": 675,
+  "mode": "network disabled; fresh isolated cache",
+  "teams": {
+    "unique_original_names": 1007,
+    "with_chinese": 1007,
+    "provisional_names": 184,
+    "missing_chinese": [],
+    "methods": {
+      "dictionary": 823,
+      "offline-transliteration": 184
+    }
+  },
+  "competitions": {
+    "unique_original_names": 80,
+    "with_chinese": 80,
+    "provisional_names": 0,
+    "missing_chinese": [],
+    "methods": {
+      "competition-registry": 80
+    }
+  },
+  "stages": {
+    "unique_original_names": 31,
+    "with_chinese": 31,
+    "provisional_names": 0,
+    "missing_chinese": [],
+    "methods": {
+      "dictionary": 19,
+      "structure": 12
+    }
+  },
+  "checked_at": "2026-11-18T14:16:38.359195+00:00",
+  "by_competition": [
+    {
+      "source_id": "espn:19267",
+      "name": "Concacaf Nations League",
+      "chinese": "中北美及加勒比国家联赛",
+      "matches": 3,
+      "teams": 6,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:8313",
+      "name": "Copa Colombia",
+      "chinese": "哥伦比亚杯",
+      "matches": 1,
+      "teams": 2,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:18505",
+      "name": "Indian Football League",
+      "chinese": "印度足球联赛",
+      "matches": 10,
+      "teams": 11,
+      "provisional_teams": [
+        "Chanmari FC",
+        "Nagaland United SC",
+        "Samaleswari SC"
+      ]
+    },
+    {
+      "source_id": "espn:20381",
+      "name": "Copa de la Reina",
+      "chinese": "西班牙女子皇后杯",
+      "matches": 5,
+      "teams": 10,
+      "provisional_teams": [
+        "CD Argual",
+        "CD Samper",
+        "CP Cacereño"
+      ]
+    },
+    {
+      "source_id": "espn:19483",
+      "name": "UEFA Women's Champions League",
+      "chinese": "欧洲女子冠军联赛",
+      "matches": 9,
+      "teams": 18,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:3951",
+      "name": "Copa del Rey",
+      "chinese": "西班牙国王杯",
+      "matches": 6,
+      "teams": 12,
+      "provisional_teams": [
+        "CD Minera",
+        "Reus FC Reddis",
+        "Utebo"
+      ]
+    },
+    {
+      "source_id": "espn:23390",
+      "name": "WSL Players Cup",
+      "chinese": "英格兰女子联赛杯（WSL球员杯）",
+      "matches": 11,
+      "teams": 19,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:20226",
+      "name": "Women's FA Cup",
+      "chinese": "英格兰女子足总杯",
+      "matches": 2,
+      "teams": 4,
+      "provisional_teams": [
+        "Lye Town",
+        "Rugby Borough"
+      ]
+    },
+    {
+      "source_id": "espn:670",
+      "name": "Peru Liga 1",
+      "chinese": "秘鲁甲级联赛",
+      "matches": 4,
+      "teams": 8,
+      "provisional_teams": [
+        "FC Cajamarca"
+      ]
+    },
+    {
+      "source_id": "espn:630",
+      "name": "Brazil Serie A",
+      "chinese": "巴西甲级联赛（巴甲）",
+      "matches": 19,
+      "teams": 19,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:23284",
+      "name": "Copa Bolivia",
+      "chinese": "玻利维亚杯",
+      "matches": 1,
+      "teams": 2,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:5697",
+      "name": "FIFA U-17 World Cup",
+      "chinese": "国际足联U17世界杯（世少赛）",
+      "matches": 52,
+      "teams": 48,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:19834",
+      "name": "Club Friendly",
+      "chinese": "俱乐部友谊赛",
+      "matches": 1,
+      "teams": 2,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:5487",
+      "name": "NCAAM Soccer",
+      "chinese": "美国大学男子足球联赛（NCAA）",
+      "matches": 32,
+      "teams": 49,
+      "provisional_teams": [
+        "Akron",
+        "Bowling Green",
+        "Bryant",
+        "Cal State Bakersfield",
+        "California",
+        "Charleston",
+        "Charlotte",
+        "Clemson",
+        "Cleveland State",
+        "Cornell",
+        "Creighton",
+        "Fairleigh Dickinson",
+        "Georgetown",
+        "Grand Canyon",
+        "Houston Christian",
+        "Indiana",
+        "Kansas City",
+        "Lehigh",
+        "Liberty",
+        "Longwood",
+        "Louisville",
+        "Marshall",
+        "Maryland",
+        "Michigan State",
+        "Missouri State",
+        "NC State",
+        "North Carolina",
+        "North Florida",
+        "Omaha",
+        "Oregon State",
+        "Pittsburgh",
+        "Portland",
+        "Rutgers",
+        "SMU",
+        "Sacred Heart",
+        "Saint Louis",
+        "San Diego",
+        "South Carolina",
+        "Stanford",
+        "Syracuse",
+        "Tulsa",
+        "UCLA",
+        "UNC Wilmington",
+        "Vermont",
+        "Wake Forest",
+        "Washington",
+        "West Virginia",
+        "Wisconsin"
+      ]
+    },
+    {
+      "source_id": "espn:770",
+      "name": "MLS",
+      "chinese": "美国职业足球大联盟",
+      "matches": 10,
+      "teams": 19,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:18992",
+      "name": "A-League Women",
+      "chinese": "澳大利亚女子甲级联赛（澳女联）",
+      "matches": 5,
+      "teams": 10,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:3906",
+      "name": "A-League Men",
+      "chinese": "澳大利亚男子甲级联赛（澳超）",
+      "matches": 5,
+      "teams": 10,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:750",
+      "name": "Japanese J1 League",
+      "chinese": "日本J1联赛（日职联）",
+      "matches": 17,
+      "teams": 20,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:8316",
+      "name": "Indian Super League",
+      "chinese": "印度超级联赛（印度超）",
+      "matches": 6,
+      "teams": 10,
+      "provisional_teams": [
+        "Sporting Club Delhi"
+      ]
+    },
+    {
+      "source_id": "espn:3939",
+      "name": "Russian Premier",
+      "chinese": "俄罗斯超级联赛（俄超）",
+      "matches": 8,
+      "teams": 16,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:660",
+      "name": "LigaPro Ecuador",
+      "chinese": "厄瓜多尔甲级联赛",
+      "matches": 6,
+      "teams": 12,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:3927",
+      "name": "2. Bundesliga",
+      "chinese": "德国乙级联赛（德乙）",
+      "matches": 9,
+      "teams": 18,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:21231",
+      "name": "Saudi Pro League",
+      "chinese": "沙特职业联赛",
+      "matches": 1,
+      "teams": 2,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:3960",
+      "name": "Norwegian Eliteserien",
+      "chinese": "挪威超级联赛（挪超）",
+      "matches": 8,
+      "teams": 16,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:3913",
+      "name": "Danish Superliga",
+      "chinese": "丹麦超级联赛（丹超）",
+      "matches": 6,
+      "teams": 12,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:3933",
+      "name": "Keuken Kampioen Divisie",
+      "chinese": "荷兰乙级联赛（荷乙）",
+      "matches": 13,
+      "teams": 20,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:3926",
+      "name": "Ligue 2",
+      "chinese": "法国乙级联赛（法乙）",
+      "matches": 9,
+      "teams": 18,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:5499",
+      "name": "NCAAW Soccer",
+      "chinese": "美国大学女子足球联赛（NCAA）",
+      "matches": 32,
+      "teams": 64,
+      "provisional_teams": [
+        "Abilene Christian",
+        "Air Force",
+        "Alabama",
+        "Arkansas",
+        "Auburn",
+        "BYU",
+        "Baylor",
+        "Boston University",
+        "Brown",
+        "Bryant",
+        "Central Connecticut",
+        "Clemson",
+        "Colorado",
+        "Duke",
+        "Florida State",
+        "Houston",
+        "Jackson State",
+        "Kansas",
+        "Kentucky",
+        "Lamar",
+        "Liberty",
+        "Lipscomb",
+        "Louisville",
+        "Michigan",
+        "Michigan State",
+        "Milwaukee",
+        "Mississippi State",
+        "North Carolina",
+        "Notre Dame",
+        "Ohio State",
+        "Oklahoma",
+        "Old Dominion",
+        "Oral Roberts",
+        "Penn State",
+        "Purdue",
+        "Quinnipiac",
+        "Saint Louis",
+        "Samford",
+        "Santa Clara",
+        "South Carolina",
+        "Southern Illinois",
+        "Stanford",
+        "Tennessee",
+        "Texas",
+        "Texas Tech",
+        "UAB",
+        "UCF",
+        "UCLA",
+        "UNC Asheville",
+        "UNC Wilmington",
+        "UT Martin",
+        "Utah State",
+        "Utah Valley",
+        "Vanderbilt",
+        "Villanova",
+        "Virginia",
+        "Virginia Tech",
+        "Wake Forest",
+        "Washington",
+        "Weber State",
+        "West Virginia",
+        "Western Michigan",
+        "Wisconsin",
+        "Xavier"
+      ]
+    },
+    {
+      "source_id": "espn:3940",
+      "name": "SPFL Championship",
+      "chinese": "苏格兰冠军联赛（苏冠）",
+      "matches": 5,
+      "teams": 10,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:3921",
+      "name": "LALIGA 2",
+      "chinese": "西班牙乙级联赛（西乙）",
+      "matches": 11,
+      "teams": 22,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:720",
+      "name": "Bundesliga",
+      "chinese": "德国甲级联赛",
+      "matches": 9,
+      "teams": 18,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:3931",
+      "name": "Italian Serie B",
+      "chinese": "意大利乙级联赛（意乙）",
+      "matches": 16,
+      "teams": 20,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:710",
+      "name": "Ligue 1",
+      "chinese": "法国甲级联赛",
+      "matches": 9,
+      "teams": 18,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:3901",
+      "name": "Belgian Pro League",
+      "chinese": "比利时甲级联赛（比甲）",
+      "matches": 9,
+      "teams": 18,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:3917",
+      "name": "National League",
+      "chinese": "英格兰全国联赛",
+      "matches": 21,
+      "teams": 24,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:3915",
+      "name": "EFL League One",
+      "chinese": "英格兰甲级联赛（英甲）",
+      "matches": 16,
+      "teams": 24,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:740",
+      "name": "LALIGA",
+      "chinese": "西班牙甲级联赛（西甲）",
+      "matches": 10,
+      "teams": 20,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:20955",
+      "name": "Première Ligue",
+      "chinese": "法国女子甲级联赛",
+      "matches": 6,
+      "teams": 12,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:3934",
+      "name": "Paraguayan Primera",
+      "chinese": "巴拉圭甲级联赛",
+      "matches": 6,
+      "teams": 12,
+      "provisional_teams": [
+        "2 de Mayo",
+        "Deportivo Recoleta",
+        "Rubio Ñú",
+        "Sportivo Ameliano",
+        "Sportivo San Lorenzo",
+        "Sportivo Trinidense"
+      ]
+    },
+    {
+      "source_id": "espn:20922",
+      "name": "Taca de Portugal",
+      "chinese": "葡萄牙杯",
+      "matches": 16,
+      "teams": 32,
+      "provisional_teams": [
+        "Fatima",
+        "Leca",
+        "Lusitania",
+        "Paredes",
+        "Sanjoanense",
+        "Uniao da Serra",
+        "Vianense",
+        "Vitoria Sernache"
+      ]
+    },
+    {
+      "source_id": "espn:640",
+      "name": "Chilean Primera",
+      "chinese": "智利甲级联赛",
+      "matches": 8,
+      "teams": 16,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:650",
+      "name": "Colombian Primera A",
+      "chinese": "哥伦比亚甲级联赛",
+      "matches": 6,
+      "teams": 8,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:745",
+      "name": "Argentine LPF",
+      "chinese": "阿根廷甲级联赛（阿甲）",
+      "matches": 7,
+      "teams": 14,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:760",
+      "name": "Liga MX",
+      "chinese": "墨西哥超级联赛（墨超）",
+      "matches": 9,
+      "teams": 18,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:4005",
+      "name": "Liga FPD",
+      "chinese": "哥斯达黎加甲级联赛",
+      "matches": 5,
+      "teams": 10,
+      "provisional_teams": [
+        "AD San Carlos",
+        "Escorpiones Belén",
+        "Inter de San Carlos",
+        "Pérez Zeledón",
+        "Sporting San José"
+      ]
+    },
+    {
+      "source_id": "espn:3946",
+      "name": "Turkish Super Lig",
+      "chinese": "土耳其超级联赛",
+      "matches": 9,
+      "teams": 18,
+      "provisional_teams": [
+        "Çorum FK"
+      ]
+    },
+    {
+      "source_id": "espn:20956",
+      "name": "Liga F",
+      "chinese": "西班牙女子甲级联赛",
+      "matches": 8,
+      "teams": 16,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:19968",
+      "name": "Swedish Allsvenskan Pro/Rel",
+      "chinese": "瑞典超级联赛升降级附加赛",
+      "matches": 1,
+      "teams": 2,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:700",
+      "name": "English Premier League",
+      "chinese": "英格兰超级联赛",
+      "matches": 10,
+      "teams": 20,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:3914",
+      "name": "EFL Championship",
+      "chinese": "英格兰冠军联赛（英冠）",
+      "matches": 20,
+      "teams": 24,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:3916",
+      "name": "EFL League Two",
+      "chinese": "英格兰乙级联赛（英乙）",
+      "matches": 14,
+      "teams": 24,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:8097",
+      "name": "Women's Super League",
+      "chinese": "英格兰女子超级联赛（英女超）",
+      "matches": 7,
+      "teams": 14,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:3945",
+      "name": "Swedish Allsvenskan",
+      "chinese": "瑞典超级联赛（瑞典超）",
+      "matches": 8,
+      "teams": 16,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:730",
+      "name": "Serie A",
+      "chinese": "意大利甲级联赛",
+      "matches": 10,
+      "teams": 20,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:735",
+      "name": "SPFL Premiership",
+      "chinese": "苏格兰超级联赛（苏超）",
+      "matches": 8,
+      "teams": 12,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:725",
+      "name": "Eredivisie",
+      "chinese": "荷兰甲级联赛（荷甲）",
+      "matches": 9,
+      "teams": 18,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:3907",
+      "name": "Austrian Bundesliga",
+      "chinese": "奥地利甲级联赛（奥甲）",
+      "matches": 6,
+      "teams": 12,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:4002",
+      "name": "USL Championship",
+      "chinese": "美国足球冠军联赛（USL）",
+      "matches": 1,
+      "teams": 2,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:3955",
+      "name": "Greek Super League",
+      "chinese": "希腊超级联赛（希腊超）",
+      "matches": 7,
+      "teams": 14,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:3904",
+      "name": "Argentine Primera B",
+      "chinese": "阿根廷乙级都会联赛",
+      "matches": 4,
+      "teams": 8,
+      "provisional_teams": [
+        "Camioneros",
+        "Comunicaciones",
+        "Real Pilar",
+        "Talleres de Remedios"
+      ]
+    },
+    {
+      "source_id": "espn:3928",
+      "name": "Guatemalan Liga Nacional",
+      "chinese": "危地马拉国家联赛",
+      "matches": 6,
+      "teams": 12,
+      "provisional_teams": [
+        "Antigua GFC",
+        "Aurora FC",
+        "CD Guastatoya",
+        "CD Malacateco",
+        "Cobán Imperial",
+        "Comunicaciones",
+        "Deportivo Mixco",
+        "Deportivo San Pedro",
+        "Marquense",
+        "Municipal",
+        "Suchitepequez",
+        "Xelajú MC"
+      ]
+    },
+    {
+      "source_id": "espn:620",
+      "name": "Bolivian Liga Profesional",
+      "chinese": "玻利维亚职业联赛",
+      "matches": 8,
+      "teams": 16,
+      "provisional_teams": [
+        "ABB",
+        "Aurora",
+        "GV San José",
+        "Guabirá",
+        "Independiente Petrolero",
+        "Real Oruro",
+        "Real Tomayapo",
+        "San Antonio Bulo Bulo",
+        "Universitario de Vinto"
+      ]
+    },
+    {
+      "source_id": "espn:3903",
+      "name": "Argentine Nacional B",
+      "chinese": "阿根廷全国乙级联赛（阿乙）",
+      "matches": 4,
+      "teams": 8,
+      "provisional_teams": [
+        "Atlanta",
+        "Ciudad de Bolívar"
+      ]
+    },
+    {
+      "source_id": "espn:3929",
+      "name": "Honduran Liga Nacional",
+      "chinese": "洪都拉斯国家联赛",
+      "matches": 6,
+      "teams": 12,
+      "provisional_teams": [
+        "CA Independiente Siguatepeque",
+        "CD Choloma",
+        "CD Estrella Roja",
+        "Club Deportivo Marathón",
+        "Génesis PN",
+        "Juticalpa FC",
+        "Olancho FC",
+        "Platense",
+        "UPNFM"
+      ]
+    },
+    {
+      "source_id": "espn:3943",
+      "name": "Salvadoran Primera",
+      "chinese": "萨尔瓦多甲级联赛",
+      "matches": 6,
+      "teams": 12,
+      "provisional_teams": [
+        "Alianza FC",
+        "Atletico Balboa",
+        "C.D. Platense",
+        "CD FAS",
+        "CD Municipal Limeño",
+        "Cacahuatique",
+        "Fuerte San Francisco",
+        "Inca Aruba",
+        "Internacional Santa Tecla",
+        "Isidro Metapán",
+        "Luis Ángel Firpo",
+        "Águila"
+      ]
+    },
+    {
+      "source_id": "espn:3949",
+      "name": "Liga FUTVE",
+      "chinese": "委内瑞拉甲级联赛",
+      "matches": 3,
+      "teams": 6,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:23633",
+      "name": "USL Super League",
+      "chinese": "美国女子超级联赛（USL）",
+      "matches": 4,
+      "teams": 6,
+      "provisional_teams": [
+        "Sporting Jax"
+      ]
+    },
+    {
+      "source_id": "espn:5454",
+      "name": "CONMEBOL Sudamericana",
+      "chinese": "南美俱乐部杯（南美杯）",
+      "matches": 1,
+      "teams": 2,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:8301",
+      "name": "NWSL",
+      "chinese": "美国国家女子足球联赛（NWSL）",
+      "matches": 1,
+      "teams": 2,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:3932",
+      "name": "Liga de Expansión MX",
+      "chinese": "墨西哥发展联赛（墨西甲）",
+      "matches": 1,
+      "teams": 2,
+      "provisional_teams": [
+        "Club Atlético La Paz"
+      ]
+    },
+    {
+      "source_id": "espn:19945",
+      "name": "Dutch Vrouwen Eredivisie",
+      "chinese": "荷兰女子甲级联赛",
+      "matches": 5,
+      "teams": 10,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:4007",
+      "name": "Brazil Serie B",
+      "chinese": "巴西乙级联赛（巴乙）",
+      "matches": 2,
+      "teams": 4,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:3902",
+      "name": "AFC Champions League Elite",
+      "chinese": "亚足联冠军精英联赛",
+      "matches": 16,
+      "teams": 32,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:18000",
+      "name": "CAF Confederation Cup",
+      "chinese": "非洲联盟杯",
+      "matches": 1,
+      "teams": 2,
+      "provisional_teams": [
+        "Douanes"
+      ]
+    },
+    {
+      "source_id": "espn:2466",
+      "name": "AFC Champions League Two",
+      "chinese": "亚足联冠军二级联赛（亚冠二级）",
+      "matches": 5,
+      "teams": 10,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:3937",
+      "name": "South African Premier",
+      "chinese": "南非超级联赛（南非超）",
+      "matches": 2,
+      "teams": 4,
+      "provisional_teams": [
+        "Durban City"
+      ]
+    },
+    {
+      "source_id": "espn:775",
+      "name": "UEFA Champions League",
+      "chinese": "欧洲冠军联赛",
+      "matches": 9,
+      "teams": 18,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:18481",
+      "name": "EFL Trophy",
+      "chinese": "英格兰联赛锦标赛",
+      "matches": 4,
+      "teams": 8,
+      "provisional_teams": []
+    },
+    {
+      "source_id": "espn:5331",
+      "name": "SPFL Challenge Cup",
+      "chinese": "苏格兰挑战杯",
+      "matches": 8,
+      "teams": 16,
+      "provisional_teams": [
+        "Clydebank",
+        "East Kilbride",
+        "Kelty Hearts"
+      ]
+    },
+    {
+      "source_id": "espn:8312",
+      "name": "Copa Chile",
+      "chinese": "智利杯",
+      "matches": 1,
+      "teams": 2,
+      "provisional_teams": []
+    }
+  ]
+}

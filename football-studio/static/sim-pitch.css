@@ -1,0 +1,56 @@
+.sim-theatre{--arena-dark:#142c29;--arena-line:#cad6c9;min-width:0;margin:0;background:#fcfdf9;border:1px solid #c9d6c9;border-radius:16px;overflow:hidden;color:#243b2d;isolation:isolate}
+.sim-theatre *{box-sizing:border-box}
+.sim-theatre [hidden]{display:none!important}
+.sim-scoreboard{display:flex;justify-content:center;align-items:center;gap:clamp(12px,3.2vw,44px);padding:13px clamp(12px,3vw,35px);background:linear-gradient(110deg,#18362e,#16322f 48%,#1b3339);color:#f2f6e9;border-bottom:1px solid #456657}
+.sim-team{min-width:0;display:flex;align-items:center;gap:12px;flex:1 1 0}
+.sim-team>div{min-width:0}.sim-team small,.sim-team strong{display:block}
+.sim-team small{font-size:10px;color:#b9cbbd;letter-spacing:.09em}
+.sim-team strong{font-weight:720;font-size:clamp(15px,2.1vw,26px);line-height:1.18;overflow-wrap:anywhere;letter-spacing:-.025em}
+.sim-away{text-align:right;justify-content:flex-end}
+.sim-kit{width:clamp(24px,3.5vw,39px);height:auto;flex:none;filter:drop-shadow(0 2px 1px #11241c8c)}
+.sim-kit.home{color:#fbcd58}.sim-kit.away{color:#63b8ff}
+.sim-clockboard{text-align:center;flex:none;min-width:94px;font-family:"Segoe UI","Microsoft YaHei UI",sans-serif;font-variant-numeric:tabular-nums}
+.sim-clockboard>div:last-child{display:flex;align-items:center;justify-content:center;gap:7px;color:#d5e5cd;line-height:1.2;margin-top:2px;font-size:10px}
+.sim-clockboard time{font-size:12px;font-weight:650;letter-spacing:.04em;color:#dcf7a9}
+.sim-goals{display:flex;align-items:center;justify-content:center;gap:14px;font:720 clamp(25px,3vw,36px)/1.15 "Segoe UI",sans-serif;color:#f5f6e8}
+.sim-goals i{font-size:.6em;font-style:normal;color:#8ca497}
+.sim-stage{position:relative;line-height:0;overflow:hidden;background:#264a39;isolation:isolate}
+.sim-stage canvas{width:100%;height:auto;display:block;aspect-ratio:1000/550;max-height:none}
+.sim-goal-bug{position:absolute;left:50%;top:9%;transform:translateX(-50%);display:flex;align-items:center;gap:10px;max-width:94%;height:auto;min-height:33px;padding:5px 12px 6px 9px;color:#f4ffe7;background:#173922ee;border:1px solid #e3f4a3;border-radius:5px;line-height:1.3;box-shadow:0 4px 14px #0a251e64;pointer-events:none}
+.sim-goal-bug b{display:flex;align-items:center;gap:5px;letter-spacing:.07em;font:850 italic 18px/1 "Segoe UI",sans-serif;color:#e5ff91}
+.sim-goal-bug span{font-weight:650;font-size:12px}
+.sim-stage.scored .sim-goal-bug{animation:sim-score-in .32s ease-out both}
+@keyframes sim-score-in{from{opacity:0;transform:translate(-50%,-7px) scale(.93)}to{opacity:1;transform:translate(-50%,0) scale(1)}}
+.sim-commentary{display:flex;align-items:center;gap:12px;min-height:43px;padding:9px 15px;color:#e4eee0;background:var(--arena-dark);font-size:13px;line-height:1.45}
+.sim-commentary>b{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;font-size:11px;font-weight:700;color:#d3ec9c;border-right:1px solid #5b7363;padding-right:11px}
+.sim-controls{padding:13px 17px 12px}
+.sim-track{width:100%;position:relative;display:flex;align-items:center;margin:0 0 8px}
+.sim-marks{position:absolute;inset:0 6px;pointer-events:none}
+.sim-marks i{position:absolute;width:3px;height:5px;border-radius:2px;top:1px;transform:translateX(-50%);background:#a58236}
+.sim-track input{position:relative;background:transparent;cursor:pointer;margin:0;width:100%;height:20px;appearance:none;-webkit-appearance:none;accent-color:#2c694c}
+.sim-track input::-webkit-slider-runnable-track{height:5px;border-radius:6px;background:linear-gradient(to right,#33724d var(--sim-progress,0%),#d9e4d7 var(--sim-progress,0%))}
+.sim-track input::-webkit-slider-thumb{appearance:none;-webkit-appearance:none;width:12px;height:12px;transform:translateY(-3.5px);border:2px solid #fefff8;border-radius:50%;background:#215b3b;box-shadow:0 0 0 1px #63896d}
+.sim-track input::-moz-range-track{height:5px;border-radius:5px;background:#d9e4d7}.sim-track input::-moz-range-progress{background:#33724d;height:5px}.sim-track input::-moz-range-thumb{height:10px;width:10px;border:1px solid white;background:#215b3b;border-radius:50%}
+.sim-buttons,.sim-sample{display:flex;align-items:center;gap:7px;flex-wrap:wrap}
+.sim-theatre button,.sim-speed,.sim-highlights summary{font-family:inherit}
+.sim-buttons button,.sim-sample button,.sim-speed,.sim-clips button{border:1px solid #ced8ca;border-radius:7px;display:inline-flex;align-items:center;justify-content:center;gap:6px;background:#fffefa;color:#35503b;font-size:12px;font-weight:620;min-height:33px;padding:5px 10px;line-height:1.3;cursor:pointer}
+.sim-buttons button:not(:disabled):hover,.sim-clips button:hover,.sim-sample button:hover{background:#eff4e9;border-color:#93ac8c}
+.sim-buttons button:disabled{cursor:default;opacity:.45}
+.sim-buttons button.sim-play{background:#1c513b;color:#fcfff6;border-color:#1c513b;min-width:70px}
+.sim-buttons button.sim-play:hover{background:#2b6647}
+.sim-speed{margin-left:auto;gap:2px}.sim-speed select{width:39px;padding:0 0 0 2px;margin:0;border:0;background:transparent;font:inherit;color:inherit;cursor:pointer}
+.sim-buttons [data-audio][aria-pressed=true]{color:#1e603a;border-color:#98b090;background:#edf5e6}
+.sim-theatre :is(button,select,input,summary):focus-visible{outline:3px solid #78a04f;outline-offset:2px}
+.sim-sample,.sim-highlights{padding:10px 16px;border-top:1px solid #dde5d8}
+.sim-sample p{margin:0;flex:1 1 150px;line-height:1.55;font-size:12px;color:#576f5b}
+.sim-sample button{margin-left:auto;flex:none}
+.sim-highlights summary{list-style:none;cursor:pointer;font-weight:650;font-size:13px;display:flex;align-items:center;gap:7px}
+.sim-highlights summary::-webkit-details-marker{display:none}
+.sim-highlights summary small{color:#6c806d;font-size:11px}
+.sim-highlights summary:after{content:'⌄';margin-left:auto;line-height:1;transition:transform .15s}.sim-highlights[open] summary:after{transform:rotate(180deg)}
+.sim-clips{display:flex;flex-wrap:wrap;gap:6px;max-height:158px;overflow-y:auto;margin-top:9px;padding:2px}
+.sim-clips button{font-size:11px;min-height:28px;gap:5px}.sim-clips time{font-variant-numeric:tabular-nums}.sim-clips span{font-weight:400;max-width:130px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.sim-clips .sim-goal-clip{border-color:#a2b783;background:#f0f5e3}
+.sim-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+@media(max-width:600px){.sim-scoreboard{padding:9px 10px;gap:6px}.sim-team{gap:5px}.sim-clockboard{min-width:70px}.sim-kit{width:23px}.sim-team strong{font-size:14px}.sim-goals{gap:8px}.sim-controls{padding:7px 9px 10px}.sim-buttons{gap:4px}.sim-buttons button,.sim-speed{padding:5px 7px;font-size:11px;min-height:30px}.sim-speed{margin-left:0}.sim-sample,.sim-highlights{padding:9px 10px}.sim-commentary{padding:7px 10px;gap:7px;min-height:42px;font-size:12px}.sim-commentary>b{padding-right:6px;font-size:10px}.sim-goal-bug{min-height:22px;padding:2px 5px;gap:4px}.sim-goal-bug b{font-size:13px}.sim-goal-bug svg{width:15px;height:15px}.sim-goal-bug span{font-size:10px}.sim-track{margin-bottom:2px}}
+@media(prefers-reduced-motion:reduce){.sim-stage.scored .sim-goal-bug{animation:none}}
